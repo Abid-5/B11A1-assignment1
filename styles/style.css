@@ -5,8 +5,9 @@
   padding: 0;
 }
 
-.body {
+body {
   font-family: "Fira Sans", serif;
+  background-color: #F1F1F3;
 }
 
 
@@ -132,10 +133,14 @@ main {
 .news {
   display: flex;
   padding: 48px;
-  background-color: #F1F1F3;
+  background-color: #FFFFFF;
   border-radius: 24px;
   gap: 32px;
   margin-bottom: 24px;
+}
+
+.recent-news{
+    margin-bottom: 80px;
 }
 
 .recent-news h1{
@@ -164,4 +169,55 @@ main {
   border: none;
   background-color: #006a50;
   color: white;
+}
+
+/* Donation Section Style */
+.donate h1{
+    text-align: center;
+    margin-bottom: 24px;
+}
+.donate p{
+    text-align: center;
+    margin-bottom: 32px;
+    padding: 0px 100px;
+}
+
+.donation-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 32px 104px;
+}
+
+.donation-container button{
+    font-size: 40px;
+    padding: 40px;
+    border: none;
+    border-radius: 16px;
+    background-color:#FFFFFF;
+}
+
+.donation-container .selected{
+    background-color: #C6E4D6;
+}
+
+.donate input[type="text"]{
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin: 32px auto;
+    height: 64px;
+    border: none;
+    background-color: white;
+}
+
+.donate-button > button{
+    background-color: #006A50;
+    border: none;
+    padding: 17px 34px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.donate-button{
+    text-align: center;
 }
