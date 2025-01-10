@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: "Fira Sans", serif;
+}
+
+/* Shared Styles */
+.btn-primary {
+  padding: 17px 34px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  width: fit-content;
+}
+
+.text-black{
+    color: #0E0E0E;
+}
+
+.text-ash{
+    color: rgba(14, 14, 14, 0.7);
+}
+
+/* Banner section styles */
+.banner {
+  background-color: rgba(135, 255, 215, 0.686);
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 160px 80px;
+  border-radius: 24px;
+}
+
+.banner-text-container {
+  display: flex;
+  flex-direction: column;
+  padding: 117px 60px;
+}
+
+.banner h5{
+    margin-bottom: 16px;
+}
+
+.banner-title {
+  font-size: 56px;
+  margin-bottom: 24px;
+}
+
+.banner-image {
+  padding: 80px 60px;
+}
+
+.banner button{
+    background-color: #006A50;
+}
