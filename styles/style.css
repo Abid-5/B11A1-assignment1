@@ -175,8 +175,8 @@ main {
 }
 
 /* Donation Section Style */
-.donate{
-    margin-bottom: 80px;
+.donate {
+  margin-bottom: 80px;
 }
 .donate h1 {
   text-align: center;
@@ -278,4 +278,33 @@ main {
   font-size: 18px;
   font-weight: 600;
   color: white;
+}
+
+/* footer section styling */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: white;
+}
+
+footer h2,
+footer hr {
+  margin-bottom: 32px;
+}
+
+footer h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+footer hr {
+  width: 75%;
+}
+
+footer .social {
+  display: flex;
+  gap: 23px;
 }
