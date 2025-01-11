@@ -130,6 +130,32 @@ main {
   background-color: #09a15c;
 }
 
+/* quote section style */
+.quote {
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: 25px 20px;
+  background-color: white;
+  border-radius: 16px;
+  margin-bottom: 80px;
+  padding: 48px 24px;
+}
+
+.quote-text{
+  margin-bottom: 12px;
+}
+
+.quote h2 {
+  font-size: 20px;
+  font-weight: 600px;
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 4px;
+}
+
+.yunus-title {
+  color: rgba(14, 14, 14, 0.6);
+}
+
 /* Recent news section styles */
 .news {
   display: flex;
@@ -302,6 +328,7 @@ footer h2 {
 
 footer hr {
   width: 75%;
+  color: rgba(14, 14, 14, 0.1);
 }
 
 footer .social {
