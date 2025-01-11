@@ -47,6 +47,37 @@ body {
 .btn-yellow {
   background-color: #ffc239;
 }
+
+button:hover,.card:hover{
+  transform: translateY(-5px);
+  box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.5);
+  transition: transform ease 0.5s, box-shadow ease 0.5s;
+}
+
+/* Nav section styles */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 31px 160px;
+}
+
+nav button{
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #006a50;
+  border-color: #006a50;
+  border-radius: 8px;
+  background-color: #ffffff00;
+}
+
+nav h2{
+  font-size: 32px;
+  font-weight: bold;
+  color: #F5F5F5;
+}
+
 /* Banner section styles */
 .banner {
   background-color: rgba(135, 255, 215, 0.686);
@@ -129,6 +160,7 @@ main {
 .vision .btn-green {
   background-color: #09a15c;
 }
+
 
 /* quote section style */
 .quote {
@@ -226,6 +258,10 @@ main {
   border: none;
   border-radius: 16px;
   background-color: #ffffff;
+}
+
+.donation-container button:hover{
+  background-color: rgba(5, 255, 105, 0.265);
 }
 
 .donation-container .selected {
