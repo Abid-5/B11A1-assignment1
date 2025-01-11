@@ -48,34 +48,35 @@ body {
   background-color: #ffc239;
 }
 
-button:hover,.card:hover{
+button:hover,
+.card:hover {
   transform: translateY(-5px);
   box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.5);
   transition: transform ease 0.5s, box-shadow ease 0.5s;
 }
 
 /* Nav section styles */
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 31px 160px;
 }
 
-nav button{
+nav button {
   padding: 15px 30px;
   font-size: 18px;
   font-weight: 600;
   color: #006a50;
   border-color: #006a50;
   border-radius: 8px;
-  background-color: #ffffff00;
+  background-color: #f5f5f5;
 }
 
-nav h2{
+nav h2 {
   font-size: 32px;
   font-weight: bold;
-  color: #F5F5F5;
+  color: #0e0e0e;
 }
 
 /* Banner section styles */
@@ -161,7 +162,6 @@ main {
   background-color: #09a15c;
 }
 
-
 /* quote section style */
 .quote {
   background-image: url("../assets/quote-bg.png");
@@ -173,7 +173,7 @@ main {
   padding: 48px 24px;
 }
 
-.quote-text{
+.quote-text {
   margin-bottom: 12px;
 }
 
@@ -260,7 +260,7 @@ main {
   background-color: #ffffff;
 }
 
-.donation-container button:hover{
+.donation-container button:hover {
   background-color: rgba(5, 255, 105, 0.265);
 }
 
